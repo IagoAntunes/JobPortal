@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928321410714",
+    "project_id": "jobfind-bc242",
+    "storage_bucket": "jobfind-bc242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928321410714:android:69d3433ab842a8b075b123",
+        "android_client_info": {
+          "package_name": "com.example.jobportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928321410714-bcavcsl22s7h6iiov1dpf0r88s8e5t2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWnqDG0yjW84Kh2YqjnbnfsW4mPcsBeAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928321410714-bcavcsl22s7h6iiov1dpf0r88s8e5t2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
