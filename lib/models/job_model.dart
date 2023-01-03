@@ -11,6 +11,12 @@ class JobModel {
   String location;
   String experience;
   String description;
+
+  String image;
+  String completeDescription;
+  String role;
+  List<String> skills;
+
   DateTime date;
   Color color;
   Color secondaryColor;
@@ -28,6 +34,10 @@ class JobModel {
     required this.color,
     required this.secondaryColor,
     required this.textColor,
+    required this.completeDescription,
+    required this.role,
+    required this.skills,
+    required this.image,
   });
 
   Map<String, dynamic> toMap() {
@@ -40,6 +50,9 @@ class JobModel {
       'experience': experience,
       'description': description,
       'date': date,
+      'completeDescription': completeDescription,
+      'role': role,
+      'image': image,
     };
   }
 
@@ -54,6 +67,10 @@ class JobModel {
       location: map['location'] as String,
       experience: map['experience'] as String,
       description: map['description'] as String,
+      completeDescription: map['completeDescription'] as String,
+      role: map['role'] as String,
+      image: map['image'] as String,
+      skills: List.from(map['skills']),
       date: DateTime.parse(map['date']),
       color: Color(int.parse('0xff${map['color']}')),
       secondaryColor: Color(int.parse('0xff${map['secondaryColor']}')),
